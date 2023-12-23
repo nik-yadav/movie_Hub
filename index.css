@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family:Arial, sans-serif;
+}
+
+.header{
+    text-align: center;
+    padding: 32px;
+    font-size: 40px;
+}
+
+.row{
+    width: 50%;
+    padding: 10px;
+}
+
+.row img{
+    margin-top: 10px;
+}
+.column:after {
+    content: "";
+    display: table;
+}
